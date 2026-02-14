@@ -1,12 +1,14 @@
-import { useState } from 'react';
 import './App.css';
+import TestimonialCard from './components/TestimonialCard';
 
 function App() {
-	const [count, setCount] = useState(0);
-
 	return (
 		<>
-			<h1>CRUD</h1>
+			<TestimonialCard
+				name='Sarah Dole'
+				handle='@sarahdole'
+				quote={`I've been searching for high-quality abstract images for my design projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!`}
+			/>
 		</>
 	);
 }

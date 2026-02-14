@@ -1,15 +1,37 @@
-# quickCrud
+# Memento
 
-A simple fullstack app (client + server).
+A **Testimonial Card** practice app built with **React + Vite**.
 
-## Start the server
+## Getting started
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- pnpm (recommended) or npm
+
+### Install dependencies
 
 ```bash
 pnpm install
+```
+
+### Start the dev server
+
+```bash
 pnpm dev
 ```
 
-If you’re using npm:
+Then open the URL shown in your terminal (usually `http://localhost:5173`).
+
+## Useful scripts
+
+```bash
+pnpm build    # production build
+pnpm preview  # preview the production build locally
+pnpm lint     # run eslint
+```
+
+## Using npm instead of pnpm
 
 ```bash
 npm install

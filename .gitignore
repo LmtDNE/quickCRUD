@@ -55,3 +55,6 @@ Thumbs.db
 *.njsproj
 *.sln
 *.sw?
+
+# Local-only docs (do not commit)
+README.greatfrontend-template.md
